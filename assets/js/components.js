@@ -178,7 +178,7 @@ document.addEventListener("DOMContentLoaded", () =>{
     }
     });
 
-  const texts = ["Professional Software Developer", "Full-Stack Developer", "System Developer", "UI/UX Designer", "Network Engineer Beginner"];
+  const texts = ["Professional Software Developer", "Frontend Developer", "Backend Developer", "UI/UX Designer", ""];
   let count = 0;
   let index = 0;
   let currentText = '';
@@ -282,4 +282,3 @@ document.addEventListener('DOMContentLoaded', () => {
       });
   });
 });
-

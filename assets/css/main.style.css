@@ -28,7 +28,7 @@ html::-webkit-scrollbar-thumb:hover {
 }
 
 html::-webkit-scrollbar-thumb:active {
-    background: #e6d013;
+    background: #b5179e;
     border-radius: 10px;
 }
 body{
@@ -95,7 +95,7 @@ ul li{
   height: 50px;
   top: 15px;
   left: 15px;
-  border-bottom-color: #e6d013;
+  border-bottom-color: #b5179e;
   animation-duration: 2s;
 }
 
@@ -179,7 +179,7 @@ ul li{
 .popup-menu .side-menu-close {
     color: #fff;
     border-radius: 50%;
-    background-color: #e6d013;
+    background-color: #b5179e;
     width: 50px;
     height: 50px;
     display: flex;
@@ -251,7 +251,7 @@ ul li{
     padding: 0px 20px;
 }
 .nav-bar-section .nav-links-container ul li a {
-    color: #111;
+    color: #fff;
     position: relative;
     cursor: pointer;
     font-size: 23px;
@@ -298,7 +298,7 @@ ul li{
     background-color: #ccc;
 }
 .nav-bar-section .is-sticky .nav-container{
-    background-color: #e2e2e2;
+    background-color: #000;
     backdrop-filter: blur(10px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.099);
     transition-duration: .5s;
@@ -311,9 +311,9 @@ ul li{
 //////////////////////////////////////////////////////////////////////////////// */
 .footer-section{
     padding: 40px 0px 0px;
-    background-color: #000;
     color: #fff;
-    box-shadow: 0px 0px 6px 0px #111;
+    background: linear-gradient(to top, #000, #241c1c57);
+    overflow: hidden;
 }
 .footer-section footer h5{
     font-weight: bolder;
@@ -384,7 +384,7 @@ ul li{
 Home Page Style
 ==================================*/
 .hero {
-    background: #e2e2e2;
+    background: #000;
     height: 100vh;
     overflow: hidden;
     position: relative;
@@ -394,12 +394,11 @@ Home Page Style
 }
 .hero-content{
     padding: 40px 20px;
-    color: #000;
+    color: #fff;
 }
 .hero-content h1 {
   font-size: 2.6rem;
   font-weight: 900;
-  color: #000;
 }
 
 .hero-content h2 {
@@ -415,7 +414,6 @@ Home Page Style
 .hero-content p {
   margin-top: 10px;
   line-height: 1.6;
-  color: #000;
   font-weight: 300;
 }
 
@@ -436,7 +434,7 @@ Home Page Style
 }
 .hero-content .btn-b {
   background-color: transparent;
-  color: #000;
+  color: #fff;
   border: 1px solid #b5179e;
   padding: 8px 25px;
   text-decoration: none;
@@ -564,33 +562,39 @@ Home Page Style
             Projects #Latest
 //////////////////////////////////////////////////////////////////////////////// */
 .projects-section {
-  padding: 40px 0px 40px 40px;
-  background-color: #e2e2e2;
+  padding: 40px 20px 40px 40px;
 }
 #imageContainer .loading, #loadMoreBtn{
     margin-top: 2%;
     font-size: 18px;
+    font-weight: 400;
+}
+#loadMoreBtn{
+  background-color: #b5179e;
 }
 .projects-section .heading h2{
   font-weight: 700;
   font-size: 40px;
+  color: #fff;
 }
 .projects-section .heading h4{
     padding-bottom: 30px;
-    font-weight: 400;
+    font-weight: 300;
+    color: #fff;
 }
 .modal-open .modal{
     background-color: var(--glass-bg);
     backdrop-filter: blur(12px);
+    overflow-y: hidden;
+    overflow-x: auto;
 }
 #imageContainer .card {
-  box-shadow: 0px 0px 6px 0px #111;
   cursor: pointer;
   border-radius: 8px;
   height: 100%;
-  border: none;
+  border: 1px solid #f3efef83;
   color: #fff;
-  background-color: #000;
+  background: rgba(30, 30, 30, 0.6);
 }
 .card-img-top {
   height: 180px;
@@ -657,7 +661,7 @@ Home Page Style
 /* CONTROLS */
 .carousel-control-next,
 .carousel-control-prev {
-  background-color: #e6d013;
+  background-color: #b5179e;
   color: #FBFFFF;
   padding: 10px;
   border-radius: 50%;
@@ -670,8 +674,8 @@ Home Page Style
 /* BUTTONS */
 .btn-primary,
 .btn-skyblue {
-  background-color: #e6d013;
-  border-color: #e6d013;
+  background-color: #b5179e;
+  border-color: #b5179e;
   padding: 8px;
   border-radius: 10px;
   color: #fff;
@@ -771,7 +775,7 @@ Home Page Style
 }
 
 .info-section h5 {
-    color: #ccc;
+    color: #fff;
     font-weight: 600;
     display: flex;
     margin-bottom: 5px;
@@ -779,14 +783,14 @@ Home Page Style
 }
 
 .info-section h5 i {
-    color: #e6d013;
+    color: #b5179e;
     font-size: 1.2rem;
     display: none;
 }
 
 .info-section p {
     margin-bottom: 0px;
-    color: #ccc;
+    color: #fff;
     font-size: 17px;
     line-height: normal;
 }
@@ -806,7 +810,7 @@ Home Page Style
 .tool-item:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    border-color: #e6d013;
+    border-color: #b5179e;
 }
 
 .tool-icon {
@@ -817,7 +821,7 @@ Home Page Style
 
 .tool-name {
     font-weight: 500;
-    color: #ccc;
+    color: #fff;
     margin-right: 10px;
     font-size: 17px;
     line-height: normal;
@@ -859,7 +863,6 @@ Home Page Style
 //////////////////////////////////////////////////////////////////////////////// */
  .skills-section {
     padding: 50px 0;
-    background-color: #e2e2e2;
     min-height: 100vh;
 }
 
@@ -868,11 +871,12 @@ Home Page Style
 }
 
 .skills-section .card {
-    background-color: #111;
-    border: 1px solid #e2e2e2;
+    background: rgba(30, 30, 30, 0.6);
+    backdrop-filter: blur(10px);
     border-radius: 12px;
     transition: all 0.3s ease;
     height: 100%;
+    box-shadow: 0 0 10px hsl(0, 0%, 89%);
 }
 
 .skills-section .col-lg-4 {
@@ -881,8 +885,8 @@ Home Page Style
 
 .skills-section .card:hover {
     transform: translateY(-5px);
-    border-color: #000;
-    box-shadow: 0 10px 30px rgba(230, 208, 19, 0.2);
+    border-color: #ccc;
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.4);
 }
 
 .skills-section h2 {
@@ -917,7 +921,7 @@ Home Page Style
 
 .skills-section .badge {
     background-color: #b5179e;
-    color: #ccc;
+    color: #f1ebeb;
     font-weight: 500;
     padding: 6px 10px;
     font-size: 13px;
@@ -971,7 +975,7 @@ Contact Page style
 .Contact-Us {
     padding-top: 60px;
     padding-bottom: 40px;
-    background-color: #e2e2e2;
+    background-color: #000;
 }
 
 .title-heading-center{
@@ -987,7 +991,7 @@ Contact Page style
     width: 100%;
     border: 1px solid #ccc;
     border-radius: 6px;
-    background-color: #ffffff12;;
+    background-color: #ffffff12;
     padding-left: 20px;
     font-size: inherit;
     color: #ccc;
@@ -998,16 +1002,15 @@ Contact Page style
     /* box-shadow: 0 6px 4px -5px rgb(142, 125, 190), 0 4px 10px 0 rgb(142, 125, 190), 0 4px 10px -5px rgb(142, 125, 190); */
     padding: 60px 30px;
     border-radius: 10px;
-    background-color: #000;
     color: #ccc;
-    border: 2px solid #ccc;
+    border: 1px solid #ccccccad;
 }
 .contact__form textarea {
     height: 150px;
     width: 100%;
     border: 1px solid #ccc;
     border-radius: 6px;
-    background-color: #ffffff12;;
+    background-color: #ffffff12;
     padding-left: 20px;
     padding-top: 12px;
     font-size: inherit;
@@ -1031,11 +1034,10 @@ Contact Page style
 
 .contact-details-container .each-detail-container {
     padding: 20px 30px;
-    background-color: #000;
     height: 100%;
     color: #fff;
     border-radius: 10px;
-    border: 2px solid #ccc;
+    border: 2px solid #ccccccad;
     /* box-shadow: 0 8px 12px -12px rgb(142, 125, 190), 0 4px 8px 0 rgb(142, 125, 190), 0 8px 10px -5px rgb(39, 39, 39); */
 }
 
@@ -1059,7 +1061,7 @@ Contact Page style
     width: 60px;
     height: 60px;
     border-radius: 100%;
-    color: #bcc;
+    color: #fff;
 }
 
 /*//////////////////

@@ -5,142 +5,84 @@ $(document).ready(function () {
     // });
 
     var textArray = [
-        'E-commerce platform redesign and migration',
-        'Legal Services E-Commerce Website',
-        'Automotive Parts of E-Commerce',
-        'Women`s Fashion E-Commerce',
-        'International Family Church',
-        'Morden Car Rental Service Platform',
+        'Umnothofs',
+        'Samco Engines',
+        'Litklean Chemicals',
+        'Refresha Trading',
+        'Improved Seeds',
+        'Blushwear Clothing',
+        'Alude Arts',
+        // 'International Family Church',
+        'Sjoti Car Rentaks',
         //'Financial Services Website',
     ];
     
     var images = [
-        //project1
-        ['assets/img/project1/alude.png', 'assets/img/project1/home.png', 'assets/img/project1/home2.png', 'assets/img/project1/home3.png', 'assets/img/project1/home33.png',
-         'assets/img/project1/home4.png', 'assets/img/project1/products.png', 'assets/img/project1/shoponline.png', 'assets/img/project1/prev-page.png', 'assets/img/project1/preview-product.png',
-         'assets/img/project1/footer.png', 'assets/img/project1/cart.png', 'assets/img/project1/checkout.png', 'assets/img/project1/contact.png', 'assets/img/project1/contact-form.png'
-        ],
-         //project6
-        ['assets/img/project6/project6.png', 'assets/img/project6/home.png', 'assets/img/project6/home1.png', 'assets/img/project6/home2.png', 'assets/img/project6/home3.png', 'assets/img/project6/home4.png',
-        'assets/img/project6/navbar.png', 'assets/img/project6/footer.png', 'assets/img/project6/about.png', 'assets/img/project6/values.png', 'assets/img/project6/team.png','assets/img/project6/business1.png',
-        'assets/img/project6/business2.png', 'assets/img/project6/services.png', 'assets/img/project6/popup.png','assets/img/project6/shop.png','assets/img/project6/shop1.png','assets/img/project6/contact.png',
-        ],
+        //umnotho 6 = 1 
+        ['assets/img/project6/project6.png',],
 
-        //project3
-        ['assets/img/project3/project3.png', 'assets/img/project3/hero.png', 'assets/img/project3/home2.png', 'assets/img/project3/home3.png', 'assets/img/project3/home4.png',
-         'assets/img/project3/home5.png', 'assets/img/project3/home5.png', 'assets/img/project3/footer.png', 'assets/img/project3/products.png', 'assets/img/project3/preview.png', 'assets/img/project3/cart.png',
-         'assets/img/project3/contact.png','assets/img/project3/contact2.png', 'assets/img/project3/navbar.png', 'assets/img/project3/insights.png',
-        ],
+        //samcoengines 3 = 2
+        ['assets/img/project3/project3.png', ],
 
-        //project4
-        ['assets/img/project4/project4.png', 'assets/img/project4/home.png', 'assets/img/project4/home2.png', 'assets/img/project4/home3.png', 'assets/img/project4/home4.png', 'assets/img/project4/navbar.png',
-        'assets/img/project4/footer.png', 'assets/img/project4/products1.png', 'assets/img/project4/products.png', 'assets/img/project4/preview.png','assets/img/project4/cart.png',
-        'assets/img/project4/checkout.png', 'assets/img/project4/contact.png',
-        ],
+        ['assets/img/project8/litklean.png', ],  
+        
+        ['assets/img/project9/refresha.png',],
 
-        //project5
-        ['assets/img/project5/ebenezer.png', 'assets/img/project5/home.png', 'assets/img/project5/home1.png', 'assets/img/project5/home2.png', 'assets/img/project5/home3.png', 'assets/img/project5/about.png',
-        'assets/img/project5/navbar.png', 'assets/img/project5/navbar1.png', 'assets/img/project5/footer.png', 'assets/img/project5/calendar.png', 'assets/img/project5/calendar1.png', 'assets/img/project5/gallery.png', 
-        'assets/img/project5/sponsor.png', 'assets/img/project5/ministries.png', 'assets/img/project5/contact.png', 'assets/img/project5/contact1.png',
-        ],
+        ['assets/img/project2/impr.png',],
+   
+        ['assets/img/project4/project4.png',],
 
-               //project2
-        // ['assets/img/project2/project2.png', 'assets/img/project2/appointment.png', 'assets/img/project2/home.png', 'assets/img/project2/home1.png', 'assets/img/project2/home2.png',
-        //  'assets/img/project2/home3.png', 'assets/img/project2/footer.png', 'assets/img/project2/about1.png', 'assets/img/project2/about.png', 'assets/img/project2/value.png', 'assets/img/project2/steps.png',
-        //  'assets/img/project2/services1.png','assets/img/project2/services.png', 'assets/img/project2/book-service.png', 'assets/img/project2/navbar.png', 'assets/img/project2/contact1.png', 'assets/img/project2/contact.png',
-        // ],
+        ['assets/img/project1/alude.png', ], 
 
-        //project7
-        [
-            'assets/img/project7/sjoti.png',
-        ],
+        // ['assets/img/project5/ebenezer.png',],
+
+        ['assets/img/project7/sjoti.png',],
     ];
     
     var descriptions = [
-        ['<a href="https://www.aludearts.co.za" target="_blank">Web Link</a>','<a href="https://www.aludearts.co.za" target="_blank">Web Link</a>','<a href="https://www.aludearts.co.za" target="_blank">Web Link</a>','<a href="https://www.aludearts.co.za" target="_blank">Web Link</a>','<a href="https://www.aludearts.co.za" target="_blank">Web Link</a>'
-        ,'<a href="https://www.aludearts.co.za" target="_blank">Web Link</a>','<a href="https://www.aludearts.co.za" target="_blank">Web Link</a>','<a href="https://www.aludearts.co.za" target="_blank">Web Link</a>','<a href="https://www.aludearts.co.za" target="_blank">Web Link</a>','<a href="https://www.aludearts.co.za" target="_blank">Web Link</a>'
-        ,'<a href="https://www.aludearts.co.za" target="_blank">Web Link</a>','<a href="https://www.aludearts.co.za" target="_blank">Web Link</a>','<a href="https://www.aludearts.co.za" target="_blank">Web Link</a>','<a href="https://www.aludearts.co.za" target="_blank">Web Link</a>','<a href="https://www.aludearts.co.za" target="_blank">Web Link</a>'
-        ],
 
-           ['<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>','<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>','<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>','<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>','<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>'
-        ,'<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>','<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>','<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>','<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>','<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>'
-        ,'<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>','<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>','<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>','<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>','<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>'
-        ,'<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>','<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>',
-        ],
-
-
+        ['<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>',],
      
-        ['<a href="https://samcoengines.co.za/" target="_blank">Web Link</a>','<a href="https://samcoengines.co.za/" target="_blank">Web Link</a>','<a href="https://samcoengines.co.za/" target="_blank">Web Link</a>','<a href="https://samcoengines.co.za/" target="_blank">Web Link</a>','<a href="https://samcoengines.co.za/" target="_blank">Web Link</a>'
-        ,'<a href="https://samcoengines.co.za/" target="_blank">Web Link</a>','<a href="https://samcoengines.co.za/" target="_blank">Web Link</a>','<a href="https://samcoengines.co.za/" target="_blank">Web Link</a>','<a href="https://samcoengines.co.za/" target="_blank">Web Link</a>','<a href="https://samcoengines.co.za/" target="_blank">Web Link</a>'
-        ,'<a href="https://samcoengines.co.za/" target="_blank">Web Link</a>','<a href="https://samcoengines.co.za/" target="_blank">Web Link</a>','<a href="https://samcoengines.co.za/" target="_blank">Web Link</a>','<a href="https://samcoengines.co.za/" target="_blank">Web Link</a>','<a href="https://samcoengines.co.za/" target="_blank">Web Link</a>'
-        ],
+        ['<a href="https://samcoengines.co.za/" target="_blank">Web Link</a>',],
 
-        ['<a href="https://blushwear.co.za/" target="_blank">Web Link</a>','<a href="https://blushwear.co.za/" target="_blank">Web Link</a>','<a href="https://blushwear.co.za/" target="_blank">Web Link</a>','<a href="https://blushwear.co.za/" target="_blank">Web Link</a>','<a href="https://blushwear.co.za/" target="_blank">Web Link</a>'
-        ,'<a href="https://blushwear.co.za/" target="_blank">Web Link</a>','<a href="https://blushwear.co.za/" target="_blank">Web Link</a>','<a href="https://blushwear.co.za/" target="_blank">Web Link</a>','<a href="https://blushwear.co.za/" target="_blank">Web Link</a>','<a href="https://blushwear.co.za/" target="_blank">Web Link</a>'
-        ,'<a href="https://blushwear.co.za/" target="_blank">Web Link</a>','<a href="https://blushwear.co.za/" target="_blank">Web Link</a>','<a href="https://blushwear.co.za/" target="_blank">Web Link</a>'
-        ],
+        ['<a href="https://litkleanchemicals.co.za/.co.za" target="_blank">Web Link</a>',],
 
-        ['<a href="https://ebenezerfamilychurch.org.za/" target="_blank">Web Link</a>','<a href="https://ebenezerfamilychurch.org.za/" target="_blank">Web Link</a>','<a href="https://ebenezerfamilychurch.org.za/" target="_blank">Web Link</a>','<a href="https://ebenezerfamilychurch.org.za/" target="_blank">Web Link</a>','<a href="https://ebenezerfamilychurch.org.za/" target="_blank">Web Link</a>'
-        ,'<a href="https://ebenezerfamilychurch.org.za/" target="_blank">Web Link</a>','<a href="https://ebenezerfamilychurch.org.za/" target="_blank">Web Link</a>','<a href="https://ebenezerfamilychurch.org.za/" target="_blank">Web Link</a>','<a href="https://ebenezerfamilychurch.org.za/" target="_blank">Web Link</a>','<a href="https://ebenezerfamilychurch.org.za/" target="_blank">Web Link</a>'
-        ,'<a href="https://ebenezerfamilychurch.org.za/" target="_blank">Web Link</a>','<a href="https://ebenezerfamilychurch.org.za/" target="_blank">Web Link</a>','<a href="https://ebenezerfamilychurch.org.za/" target="_blank">Web Link</a>','<a href="https://ebenezerfamilychurch.org.za/" target="_blank">Web Link</a>','<a href="https://ebenezerfamilychurch.org.za/" target="_blank">Web Link</a>'
-        ,'<a href="https://ebenezerfamilychurch.org.za/" target="_blank">Web Link</a>','<a href="https://ebenezerfamilychurch.org.za/" target="_blank">Web Link</a>','<a href="https://ebenezerfamilychurch.org.za/" target="_blank">Web Link</a>','<a href="https://ebenezerfamilychurch.org.za/" target="_blank">Web Link</a>'
-        ],
+        ['<a href="https://refreshatrading.com" target="_blank">Web Link</a>',],
 
+        ['<a href="https://improvedseeds.co.za" target="_blank">Web Link</a>',],
 
-        //duplicated links
-        //      ['<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>'
-        // ,'<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>'
-        // ,'<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>'
-        // ,'<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>'
-        // ],
+        ['<a href="https://blushwear.co.za/" target="_blank">Web Link</a>',],
 
-        [
-            '<a href="https://visiondesigns.co.za/sjotiRentals" target="_blank">Web Link</a>',
-        ],
+        ['<a href="https://www.aludearts.co.za" target="_blank">Web Link</a>',],
+
+        // ['<a href="https://ebenezerfamilychurch.org.za/" target="_blank">Web Link</a>',],
+
+        ['<a href="https://visiondesigns.co.za/sjotiRentals" target="_blank">Web Link</a>', ],
     ];
     
     // Detailed project information
     var projectDetails = [
-       {
-            name: "E-Commerce Website Redesign",
-            projectType: "Full Stack Developer at Infinity Growth",
-            briefInfo:"Alude Arts the Evolution of African Artistry where every design is a legacy",
-            isEcommerce: true,
-            myContribution: "Complete website redesign and migration from custom Laravel solution to WordPress. Handled full-stack development, payment integration, and performance optimization.",
-            tools: [
-                { name: "WordPress" },
-                { name: "WooCommerce" },
-                { name: "JavaScript" },
-                { name: "CSS3" },
-                { name: "PayFast Integration" }
-            ],
-            howICameUp: "The client needed a more maintainable e-commerce solution with better content management capabilities. I proposed migrating from the existing Laravel/jQuery setup to WordPress with WooCommerce for easier updates and better scalability.",
-            paymentGateway: "PayFast",
-            websiteNote: "What you see here might not reflect what's on live application",
-            exceededExpectations: true,
-            exceededDetails: "Successfully maintained all existing functionality while improving user experience. Delivered a more maintainable solution that reduced client's content management time by 70%. Delivered on time as expected by the client."
-        },
-      {
-        name: "Legal Services E-Commerce Website",
-        projectType: "Full Stack Developer & UI/UX Designer at Infinity Growth",
-        briefInfo: "S. Hlatshwayo Attorneys Inc. is a dynamic law firm offering cutting-edge legal solutions in family law, estates, property law, commercial law and litigation",
-        isEcommerce: true,
-        designStatus: "redesigned",
-        myContribution: "Complete website redesign and development using WordPress with Elementor and custom coding. Created a modern, professional interface that reflects their legal expertise, implemented PayFast payment integration for legal service payments, and ensured full responsiveness across all devices. Delivered comprehensive full-stack solution on time.",
+        //umnothofs 1
+        {
+        name: "Umnotho FS - Financial Services Website",
+        projectType: "Full Stack Developer",
+        briefInfo: "Umnotho FS is a licensed financial services provider, proudly regulated by the Financial Sector Conduct Authority (FSCA).",
+        isEcommerce: false,
+        myContribution: "Complete website development including service showcase, booking system integration, and content management. Handled both frontend design and backend functionality for their financial services platform.",
         tools: [
-            { name: "WordPress"},
-            { name: "WooCommerce"},
-            { name: "Custom HTML/CSS & JS" },
-            { name: "PayFast Integration" },
-            { name: "Responsive Design" },
-            { name: "Optimization" }
+            { name: "WordPress" },
+            { name: "JavaScript" },
+            { name: "CSS3" },
+            { name: "Booking Plugin Integration" },
+            { name: "Contact Forms" }
         ],
-        howICameUp: "Having an existing website, They needed a modern redesign that better reflected their status as a dynamic law firm offering cutting-edge legal solutions. I created a beautiful, professional design that showcases their expertise in various legal disciplines while maintaining the trust and credibility essential for a legal practice.",
-        paymentGateway: "PayFast",
-        websiteNote: "New redesigned version ready for deployment. Portfolio showcases the modern design currently being prepared for launch.",
+        //howICameUp: "Umnotho FS needed a professional mordern website to showcase their financial planning services and allow clients to book consultations. I created a trustworthy, informative platform that reflects their expertise in serving middle-income earners and professionals.",
+        paymentGateway: null,
         exceededExpectations: true,
-        exceededDetails: "Delivered on time a stunning, fully responsive legal website with integrated payment processing for legal services. The modern design significantly enhanced their professional online presence while maintaining the trust factor crucial for legal services. Ready for deployment with comprehensive mobile optimization."
+        exceededDetails: "Delivered on time as expected by the client, providing a comprehensive solution with integrated booking system and complete service portfolio showcase. The website established strong online credibility and increased consultation bookings within the first month of launch."
         },
+
+        //samcoengines 2
         {
             name: "Samco Engines - Automotive Parts E-Commerce",
             projectType: "Full Stack Developer & SEO at Infinity Growth",
@@ -157,19 +99,74 @@ $(document).ready(function () {
                 { name: "Optimization" },
                 { name: "Custom Cart System" }
             ],
-            howICameUp: "When the original developer from Infinity Growth left for a new position, I stepped in to complete the Samco Engines project. Working from existing Figma designs and initial setup, I built a robust solution for this leading automotive parts importer. Given their fluctuating inventory of engines and parts from brands like BMW, Audi, Mercedes-Benz, I implemented a custom email-based cart system instead of direct payments.",
+            //howICameUp: "When the original developer from Infinity Growth left for a new position, I stepped in to complete the Samco Engines project. Working from existing Figma designs and initial setup, I built a robust solution for this leading automotive parts importer. Given their fluctuating inventory of engines and parts from brands like BMW, Audi, Mercedes-Benz, I implemented a custom email-based cart system instead of direct payments.",
             paymentGateway: null,
             websiteNote: "What you see here might not reflect what's on live application",
             exceededExpectations: true,
             exceededDetails: "Successfully completed the handover project, delivering a high-performing website with comprehensive SEO improvements that dramatically increased their online sales and inquiries. The custom Laravel backend and email-based ordering system perfectly addressed their inventory management needs while maintaining optimal performance."
         },
+
+          //Litklean 8
+       {
+            name: "About Car Rental Info comming soon",
+            projectType: "Full Stack Developer",
+            // briefInfo: "Umnotho FS is a licensed financial services provider, proudly regulated by the Financial Sector Conduct Authority (FSCA).",
+            // isEcommerce: true,
+            // myContribution: "Complete website development including service showcase, booking system integration, and content management. Handled both frontend design and backend functionality for their financial services platform.",
+            tools: [
+                { name: "WordPress Elementor" },
+                { name: "JavaScript" },
+                { name: "CSS" },
+                { name: "PHP" },
+                { name: "Yoco Payment Gateway" },
+            ],
+        },
+
+            //Refresha 9
+       {
+            name: "Refresha Trading Entreprises",
+            projectType: "Full Stack Developer & Graphic Design",
+            // briefInfo: "Umnotho FS is a licensed financial services provider, proudly regulated by the Financial Sector Conduct Authority (FSCA).",
+            // isEcommerce: true,
+            // myContribution: "Complete website development including service showcase, booking system integration, and content management. Handled both frontend design and backend functionality for their financial services platform.",
+            tools: [
+                { name: "WordPress Elementor" },
+                { name: "JavaScript" },
+                { name: "CSS" },
+                { name: "PHP" },
+                { name: "Yoco Payment Gateway" },
+                { name: "Video and Images Production" },
+            ],
+        },
+
+        //improvedseed 4
+        {
+        name: "Improved Seeds Website",
+        projectType: "Full Stack Developer",
+        briefInfo: "Improved Seeds is passionate about advancing the forestry industry through precision, innovation, and care.",
+        isEcommerce: false,
+        myContribution: "Complete website UX to final deveployment including service showcase, booking system integration, and content management. Handled both frontend design and backend functionality for their forestry industry.",
+        tools: [
+            { name: "WordPress" },
+            { name: "JavaScript" },
+            { name: "CSS3" },
+            { name: "Booking Plugin Integration" },
+            { name: "Contact Forms" }
+        ],
+      //  howICameUp: "Umnotho FS needed a professional mordern website to showcase their financial planning services and allow clients to book consultations. I created a trustworthy, informative platform that reflects their expertise in serving middle-income earners and professionals.",
+        paymentGateway: null,
+        exceededExpectations: true,
+        exceededDetails: "Delivered on time as expected by the client, providing a comprehensive solution with integrated booking system. The website established strong online credibility and increased consultation bookings within the first month of launch. Closed with Technical SEO."
+        },
+
+        //blushwear 5
         {
             name: "Blushwear Clothing - Women's Fashion E-Commerce",
             projectType: "Full Stack Developer at Infinity Growth",
             briefInfo: "Blushwear, a classy and trendy women's fashion brand featuring both import and local brands",
             isEcommerce: true,
             designStatus: "redesigned", // or you could use a flag like hasRedesign: true
-            myContribution: "Complete website redesign and development with modern UI/UX and enhanced order management system. Built custom order processing that stores data in both email and database, backend management, and Speed optimization. New design completed - awaiting client's payment gateway details and approval for launch.",
+            myContribution: "Complete website redesign and development with modern UI/UX and enhanced order management system. Built custom order processing that stores data in both email and database, backend management, and Speed optimization.",
             tools: [
                 { name: "JavaScript/jQuery" },
                 { name: "HTML5" },
@@ -180,55 +177,60 @@ $(document).ready(function () {
                 { name: "Google Analytics" },
                 { name: "Basic SEO" },
             ],
-            howICameUp: "Having previously worked on previous website design, I identified areas for improvement in user experience and conversion optimization. They needed new features, streamlined e-commerce platform. Building on my understanding of their brand and customer base, I redesigned the website with a cleaner interface and strategic call-to-action features to help customers 'reveal their hidden glow'.",            
+          //  howICameUp: "Having previously worked on previous website design, I identified areas for improvement in user experience and conversion optimization. They needed new features, streamlined e-commerce platform. Building on my understanding of their brand and customer base, I redesigned the website with a cleaner interface and strategic call-to-action features to help customers 'reveal their hidden glow'.",            
             paymentGateway: "PayFast (Pending Client Setup)",
-            websiteNote: "Portfolio shows new redesigned version. Live website displays our previous design while awaiting new version deployment.",
+            websiteNote: "Portfolio shows new redesigned version. Live website displays my previous design while awaiting new version deployment.",
             exceededExpectations: true,
             exceededDetails: "Delivered a comprehensive redesigned e-commerce solution with modern UI, dual order tracking, robust product management system, and analytics integration. The new conversion-focused design with strategic call-to-actions is ready for launch pending final payment integration and client approval."
         },
-        {
-        name: "Ebenezer Family Church International - Multi-Branch Website",
-        projectType: "Full Stack Developer & UI/UX Designer at Infinity Growth",
-        briefInfo: "Ebenezer Family Church International is well known in Africa with more branches across Africa",
-        isEcommerce: false,
-        myContribution: "Complete end-to-end project from concept to deployment. Handled all design work including custom graphics, created interactive Africa map image, posters, developed year calendar system, events showcasing gallery, and optimized user experience with animations to fully performance responsive and lazy loading.",
-        tools: [
-        { name: "HTML5" },
-        { name: "PHP" },
-        { name: "Bootstrap" },
-        { name: "CSS3" },
-        { name: "JavaScript/AJAX" },
-        { name: "Basic SEO" },
-        { name: "Figma & Canva" }
-       ],
-        howICameUp: "Ebenezer Family Church International needed a comprehensive website to connect their multiple branches across Africa. I designed and developed a visually stunning platform featuring all branch locations, complete events calendar system, and beautiful imagery that reflects their continental presence and community spirit.",
-        paymentGateway: null,
-        websiteNote: "What you see here might not reflect what's on live application",
-        exceededExpectations: true,
-        exceededDetails: "Delivered a visually captivating website with custom-designed features, smooth AOS animations, optimized loading with lazy loading techniques, and a comprehensive calendar system. The beautiful design and intuitive navigation enhanced their online presence and improved engagement across all African branches."
-        },
-       
-        //   {
-        //     name: "Umnotho FS - Financial Services Website",
-        //     projectType: "Full Stack Developer",
-        //     briefInfo: "Umnotho FS is a licensed financial services provider, proudly regulated by the Financial Sector Conduct Authority (FSCA).",
-        //     isEcommerce: false,
-        //     myContribution: "Complete website development including service showcase, booking system integration, and content management. Handled both frontend design and backend functionality for their financial services platform.",
-        //     tools: [
-        //         { name: "WordPress" },
-        //         { name: "JavaScript" },
-        //         { name: "CSS3" },
-        //         { name: "Booking Plugin Integration" },
-        //         { name: "Contact Forms" }
-        //     ],
-        //     howICameUp: "Umnotho FS needed a professional mordern website to showcase their financial planning services and allow clients to book consultations. I created a trustworthy, informative platform that reflects their expertise in serving middle-income earners and professionals.",
-        //     paymentGateway: null,
-        //     exceededExpectations: true,
-        //     exceededDetails: "Delivered on time as expected by the client, providing a comprehensive solution with integrated booking system and complete service portfolio showcase. The website established strong online credibility and increased consultation bookings within the first month of launch."
-        // },
 
+        //correct alude 3
+         {
+            name: "E-Commerce Website Redesign",
+            projectType: "Full Stack Developer at Infinity Growth",
+            briefInfo:"Alude Arts the Evolution of African Artistry where every design is a legacy",
+            isEcommerce: true,
+            myContribution: "Complete website redesign and migration from custom Laravel solution to WordPress. Handled full-stack development, payment integration, and performance optimization.",
+            tools: [
+                { name: "WordPress" },
+                { name: "WooCommerce" },
+                { name: "JavaScript" },
+                { name: "CSS3" },
+                { name: "PayFast Integration" }
+            ],
+          //  howICameUp: "The client needed a more maintainable e-commerce solution with better content management capabilities. I proposed migrating from the existing Laravel/jQuery setup to WordPress with WooCommerce for easier updates and better scalability.",
+            paymentGateway: "PayFast",
+            websiteNote: "What you see here might not reflect what's on live application",
+            exceededExpectations: true,
+            exceededDetails: "Successfully maintained all existing functionality while improving user experience. Delivered a more maintainable solution that reduced client's content management time by 70%. Delivered on time as expected by the client."
+        },
+
+    //     //ebenezer 6
+    //     {
+    //     name: "Ebenezer Family Church International - Multi-Branch Website",
+    //     projectType: "Full Stack Developer & UI/UX Designer at Infinity Growth",
+    //     briefInfo: "Ebenezer Family Church International is well known in Africa with more branches across Africa",
+    //     isEcommerce: false,
+    //     myContribution: "Complete end-to-end project from concept to deployment. Handled all design work including custom graphics, created interactive Africa map image, posters, developed year calendar system, events showcasing gallery, and optimized user experience with animations to fully performance responsive and lazy loading.",
+    //     tools: [
+    //     { name: "HTML5" },
+    //     { name: "PHP" },
+    //     { name: "Bootstrap" },
+    //     { name: "CSS3" },
+    //     { name: "JavaScript/AJAX" },
+    //     { name: "Basic SEO" },
+    //     { name: "Figma & Canva" }
+    //    ],
+    //    // howICameUp: "Ebenezer Family Church International needed a comprehensive website to connect their multiple branches across Africa. I designed and developed a visually stunning platform featuring all branch locations, complete events calendar system, and beautiful imagery that reflects their continental presence and community spirit.",
+    //     paymentGateway: null,
+    //     websiteNote: "What you see here might not reflect what's on live application",
+    //     exceededExpectations: true,
+    //     exceededDetails: "Delivered a visually captivating website with custom-designed features, smooth AOS animations, optimized loading with lazy loading techniques, and a comprehensive calendar system. The beautiful design and intuitive navigation enhanced their online presence and improved engagement across all African branches."
+    //     },
+       
+        //sjoti 7
        {
-            name: "Anout Car Rental Info comming soon",
+            name: "About Car Rental Info comming soon",
             projectType: "Full Stack Developer",
             // briefInfo: "Umnotho FS is a licensed financial services provider, proudly regulated by the Financial Sector Conduct Authority (FSCA).",
             // isEcommerce: true,
@@ -271,7 +273,7 @@ $(document).ready(function () {
         
         if (startIndex + batchSize < images.length) {
             var loadBtnCol = $('<div class="col-lg-12 loading text-center"></div>');
-            var loadMoreBtn = $('<a  class="btn-b" id="loadMoreBtn" style="color:#000;">Load More Projects</a>');
+            var loadMoreBtn = $('<a  class="btn-b" id="loadMoreBtn" >Load More Projects</a>');
             loadMoreBtn.click(function () {
                 $('#imageContainer').append(createImageBatch(startIndex + batchSize));
                 $(this).remove();
